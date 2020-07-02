@@ -1,0 +1,8 @@
+version: '3'
+services:
+  test-http-multi:
+    hostname: "test-http-multi"
+    build: .
+    image: "test-http-multi:latest"
+    ports:
+      - "8382:8382"
